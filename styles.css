@@ -112,6 +112,7 @@ body {
 }
 
 .rank {
+    text-align: center;
     left: 607px;
     width: 148px;
     height: 24px;
