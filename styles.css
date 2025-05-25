@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaeaea;
+    font-family: Arial, sans-serif;
+}
+
+.page {
+    width: 1123px;
+    height: 794px;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    page-break-after: always;
+    position: relative;
+}
+
+.page img {
+    width: 1123px;
+    height: 794px;
+    object-fit: contain;
+    display: block;
+}
+
+.input-overlay {
+    position: absolute;
+    font-size: 11px;
+    border: none;
+    background-color: transparent;
+}
+
+.date-from {
+    text-align: center;
+    font-weight: bold;
+    left: 68px;
+    width: 86px;
+    height: 24px;
+}
+
+.date-from1 {
+    top: 200px;
+}
+
+.date-from2 {
+    top: 314px;
+}
+
+.date-from3 {
+    top: 428px;
+}
+
+.date-from4 {
+    top: 542px;
+}
+
+.date-from5 {
+    top: 654px;
+}
+
+.date-to {
+    text-align: center;
+    font-weight: bold;
+    left: 154px;
+    width: 86px;
+    height: 24px;
+}
+
+.date-to1 {
+    top: 200px;
+}
+
+.date-to2 {
+    top: 314px;
+}
+
+.date-to3 {
+    top: 428px;
+}
+
+.date-to4 {
+    top: 542px;
+}
+
+.date-to5 {
+    top: 654px;
+}
+
+.location {
+    left: 240px;
+    width: 162px;
+    height: 24px;
+}
+
+.location1 {
+    top: 200px;
+}
+
+.location2 {
+    top: 314px;
+}
+
+.location3 {
+    top: 428px;
+}
+
+.location4 {
+    top: 542px;
+}
+
+.location5 {
+    top: 654px;
+}
+
+.rank {
+    left: 607px;
+    width: 148px;
+    height: 24px;
+}
+
+.rank1 {
+    top: 200px;
+}
+
+.rank2 {
+    top: 314px;
+}
+
+.rank3 {
+    top: 428px;
+}
+
+.rank4 {
+    top: 542px;
+}
+
+.rank5 {
+    top: 654px;
+}
+
+.duties {
+    left: 755px;
+    width: 164px;
+    height: 24px;
+}
+
+.duties1 {
+    top: 200px;
+}
+
+.duties2 {
+    top: 314px;
+}
+
+.duties3 {
+    top: 428px;
+}
+
+.duties4 {
+    top: 542px;
+}
+
+.duties5 {
+    top: 654px;
+}
+
+.officer {
+    left: 919px;
+    width: 164px;
+    height: 24px;
+}
+
+.officer1 {
+    top: 200px;
+}
+
+.officer2 {
+    top: 314px;
+}
+
+.officer3 {
+    top: 428px;
+}
+
+.officer4 {
+    top: 542px;
+}
+
+.officer5 {
+    top: 654px;
+}
+
+.place {
+    left: 461px;
+    width: 146px;
+    height: 23px;
+}
+
+.corps1 {
+    top: 164px;
+}
+
+.corps2 {
+    top: 279px;
+}
+
+.corps3 {
+    top: 394px;
+}
+
+.corps4 {
+    top: 507px;
+}
+
+.corps5 {
+    top: 621px;
+}
+
+.division1 {
+    top: 187px;
+}
+
+.division2 {
+    top: 302px;
+}
+
+.division3 {
+    top: 416px;
+}
+
+.division4 {
+    top: 530px;
+}
+
+.division5 {
+    top: 644px;
+}
+
+.brigade1 {
+    top: 210px;
+}
+
+.brigade2 {
+    top: 325px;
+}
+
+.brigade3 {
+    top: 439px;
+}
+
+.brigade4 {
+    top: 552px;
+}
+
+.brigade5 {
+    top: 667px;
+}
+
+.battalion1 {
+    top: 233px;
+}
+
+.battalion2 {
+    top: 348px;
+}
+
+.battalion3 {
+    top: 462px;
+}
+
+.battalion4 {
+    top: 575px;
+}
+
+.battalion5 {
+    top: 690px;
+}
+
+.unit1 {
+    top: 256px;
+}
+
+.unit2 {
+    top: 371px;
+}
+
+.unit3 {
+    top: 485px;
+}
+
+.unit4 {
+    top: 598px;
+}
+
+.unit5 {
+    top: 713px;
+}
+
+@media print {
+    body {
+        background: white;
+    }
+
+    .page {
+        box-shadow: none;
+        margin: 0;
+        page-break-after: always;
+    }
+
+    .input-overlay {
+        border: none;
+    }
+}
